@@ -18,7 +18,7 @@
  <!-- horizontal nav bar -->
 <div id="navb" class="nav">
   <ul>
-      <li><a href="./index.html">Home</a></li>
+      <li><a href="./index.php">Home</a></li>
       <li><a href="./aboutus.html">About</a></li>
       <li><a href="./contactus.html">Contant us</a></li>
       <li><a href="">Menu</a></li>
@@ -32,7 +32,7 @@
  <!-- this is the div for the aside -->
   <div id="small" class="content">
       <ul>
-          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.php">Home</a></li>
           <li><a href="./aboutus.html">About</a></li>
           <li><a href="./contactus.html">Contant us</a></li>
       <div class="dropdown">
