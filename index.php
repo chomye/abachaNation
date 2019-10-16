@@ -57,26 +57,26 @@
                 <p>Ugba/stockfish</p>
           </div> -->
           <div class="gallery">
-              <a target="_blank" href="../public/admin/image/img1.jpg">
-                <img src="../public/admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
+              <a target="_blank" href="./admin/image/img1.jpg">
+                <img src="./admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
               </a>
               <div class="desc">Add a description of the image here</div>
             </div>
             <div class="gallery">
-                <a target="_blank" href="../public/admin/image/img1.jpg">
-                  <img src="../public/admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
+                <a target="_blank" href="./admin/image/img1.jpg">
+                  <img src="./admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
                 </a>
                 <div class="desc">Add a description of the image here</div>
               </div>
               <div class="gallery">
-                  <a target="_blank" href="../public/admin/image/img1.jpg">
-                    <img src="../public/admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
+                  <a target="_blank" href="./admin/image/img1.jpg">
+                    <img src="./admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
                   </a>
                   <div class="desc">Add a description of the image here</div>
                 </div>
                 <div class="gallery">
-                    <a target="_blank" href="../public/admin/image/img1.jpg">
-                      <img src="../public/admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
+                    <a target="_blank" href="./admin/image/img1.jpg">
+                      <img src="./admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
                     </a>
                     <div class="desc">Add a description of the image here</div>
                 
