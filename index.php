@@ -4,85 +4,120 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ABACHA NATION</title>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
 </head>
 <body>
+  <div class="container-fluid">
+              <div class="jumbotron text-center bg-custom">
+                    <h1>Welcome to Abacha Nation</h1>
+                    </div> 
 
-<!-- this is the div for the header -->
-<div id="header" class="teach">
-    <h1>Welcome to Abacha Nation</h1>
+        <div class="container">
+              <div>
+                  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+                      <a class="navbar-brand" href="index.html">Home</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="aboutus.html">About<span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="contactus.html">Contact</a>
+                          </li>
+                          
+                          <li class="nav-item active">
+                            <a class="nav-link disabled" href="signup.html" tabindex="-1" aria-disabled="true">Sign up</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Menu
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </nav>
+              </div>
 
-</div> 
-<!-- the div for the header ends here -->
+        </div>
 
- <!-- horizontal nav bar -->
-<div id="navb" class="nav">
-  <ul>
-      <li><a href="./index.php">Home</a></li>
-      <li><a href="./aboutus.html">About</a></li>
-      <li><a href="./contactus.html">Contant us</a></li>
-      <li><a href="">Menu</a></li>
-      <li><a href="./signup.html">Sign up</a></li>
-      <li><a href="">Login</a></li>
-    </ul>
-</div> 
-
-<!-- this is the div for the body content -->
-<div id="clearfix" class="clearfix">
- <!-- this is the div for the aside -->
-  <div id="small" class="content">
-      <ul>
-          <li><a href="./index.php">Home</a></li>
-          <li><a href="./aboutus.html">About</a></li>
-          <li><a href="./contactus.html">Contant us</a></li>
-      <div class="dropdown">
-        <li><a href="">Menu</a></li>
-            <p class="dropdown-content"><a href="">Abacha/kpomo</a></p>
-              <p class="dropdown-content"> Ugba/stockfish</p>
-      </div>
-          
-          <li><a href="./signup.html">Sign up</a></li>
-          <li><a href="">Login</a></li>
-        </ul>
-  </div>
-    <!-- the div for aside ends here -->
-    <!-- the div for section starts here -->
-  <div id="section" class="content">
+ 
+  <div>
       <h1>Abacha Nation</h1>
         <p>We make the best Abacha in the World!</p>
           <p>Enjoy Delicious Original Enugu Abacha</p>
-          <!-- <div class="dropdown">
-            <h1>Menu</h1>
-              <p>Abacha/kpomo</p>
-                <p>Ugba/stockfish</p>
-          </div> -->
-          <div class="gallery">
-              <a target="_blank" href="./admin/image/img1.jpg">
-                <img src="./admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
-              </a>
-              <div class="desc">Add a description of the image here</div>
-            </div>
-            <div class="gallery">
-                <a target="_blank" href="./admin/image/img1.jpg">
-                  <img src="./admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
-                </a>
-                <div class="desc">Add a description of the image here</div>
-              </div>
-              <div class="gallery">
-                  <a target="_blank" href="./admin/image/img1.jpg">
-                    <img src="./admin/image/img1.jpg" alt="Cinque Terre" width="600" height="400">
-                  </a>
-                  <div class="desc">Add a description of the image here</div>
-                </div>
-                <div class="gallery">
-                    <a target="_blank" href="./admin/image/img1.jpg">
-                      <img src="./admin/image/img2.jpg" alt="Cinque Terre" width="600" height="400">
-                    </a>
-                    <div class="desc">Add a description of the image here</div>
-                
-                  </div>
-                  
+          
+        <div class="">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./admin/image/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                               <h5 class="card-title">Abacha Ugba and Fish</h5>
+                                <p class="card-text">Payment validates your Order</p>
+                                <a href="#" class="btn btn-primary">Click To Order</a>
+                             </div>
                     </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./admin/image/img1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                               <h5 class="card-title">Abacha Ugba and Fish</h5>
+                                <p class="card-text">Payment validates your Order</p>
+                                <a href="#" class="btn btn-primary">Click To Order</a>
+                             </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./admin/image/img2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                               <h5 class="card-title">Abacha Ugba and Fish</h5>
+                                <p class="card-text">Payment validates your Order</p>
+                                <a href="#" class="btn btn-primary">Click To Order</a>
+                             </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                  <div class="card" style="width: 18rem;">
+                      <img src="./admin/image/img2.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                             <h5 class="card-title">Abacha Ugba and Fish</h5>
+                              <p class="card-text">Payment validates your Order</p>
+                              <a href="#" class="btn btn-primary">Click To Order</a>
+                           </div>
+                  </div>
+
+              </div>
+
+                 
+                </div>
+                
+
+
+        </div>  
+          
+                
+                  
+                </div>
             
           
             
@@ -93,19 +128,23 @@
 
 <!-- the footer div starts here -->
 
-<div id="footer" class="teach">
+<div >
   <div>
     <table>
-      <tr>
-          <th>Get to know us</th>
-          <th>Join us</th>
-          <th>Follow us</th>
-     </tr>
-     <tr>
-          <td>we make abacha</td>
-          <td>be a distributor</td>
-          <td>twitter Facebook instagram</td>
-          </tr>
+        <tr>
+            <th>Get to know us</th>
+            <th>Join us</th>
+            <th>Follow us</th>
+       </tr>
+    </div>
+      
+    <div>
+        <tr>
+            <td>we make abacha</td>
+            <td>be a distributor</td>
+            <td>twitter Facebook instagram</td>
+            </tr>
+    </div>
     <tr>
           <td>we make abacha</td>
           <td>be our partner</td>
@@ -120,6 +159,9 @@
 
   </div>
 </div>
-<!-- the footer ends here -->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
 </body>
 </html>
